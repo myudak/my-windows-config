@@ -1,6 +1,6 @@
 # ===== WINFETCH CONFIGURATION =====
 
-# $image = "~/winfetch.png"
+$image = "C:\Users\yudap\Pictures\Fluffy Face.jpeg"
 # $noimage = $true
 
 # Display image using ASCII characters
@@ -32,6 +32,11 @@
 #     "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀ ⠀"
 # )
 
+
+
+
+
+
 # Make the logo blink
 # $blink = $true
 
@@ -40,9 +45,9 @@
 
 # Add a custom info line
 # function info_custom_time {
-#     return @{
-#         title = "Time"
-#         content = (Get-Date)
+# return @{
+# title = "Time"
+#     content = (Get-Date)
 #     }
 # }
 
@@ -100,7 +105,7 @@
     # "cpu_usage"
     "memory"
     "disk"
-    # "battery"
+    "battery"
     # "locale"
     # "weather"
     # "local_ip"
