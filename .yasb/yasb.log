@@ -1,0 +1,15 @@
+2024-06-24 11:37:44 INFO log.py: Yasb - Yet Another Status Bar
+2024-06-24 11:37:47 INFO bar_manager.py: Starting SystemEventListener...
+2024-06-24 11:37:47 INFO bar_manager.py: Starting KomorebiEventListener...
+2024-06-24 11:37:47 INFO event_listener.py: Created named pipe yasb-2022c138-31db-11ef-be61-960ebdfe36d5
+2024-06-24 11:37:47 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-2022c138-31db-11ef-be61-960ebdfe36d5
+2024-06-24 11:37:47 INFO watcher.py: Created file watcher for path C:\Users\yudap\.yasb
+2024-06-24 11:37:48 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: No connection could be made because the target machine actively refused it. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:1219:22
+
+2024-06-24 11:37:52 INFO event_listener.py: Komorebi connected to named pipe: yasb-2022c138-31db-11ef-be61-960ebdfe36d5
+2024-06-24 11:59:33 INFO bar.py: Screen geometry changed. Updating position for bar (yasb-bar_W1643_49789cf9)
+2024-06-24 12:02:09 INFO bar.py: Screen geometry changed. Updating position for bar (yasb-bar_W1643_49789cf9)
+2024-06-24 12:02:14 INFO bar.py: Screen geometry changed. Updating position for bar (yasb-bar_W1643_49789cf9)
